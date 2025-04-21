@@ -6,12 +6,17 @@ import Footer from '../components/Footer';
 const MainLayout = () => {
     return (
         
-
-               <div className='ml-28 mr-28'>
+        <>
+             <div className='ml-28 mr-28'>
                 <Navbar></Navbar>
                 <Outlet></Outlet>
-                 <Footer></Footer>
-            </div>
+                 
+                
+            </div> 
+
+            <Footer></Footer>      
+        </>
+               
              
          
     );

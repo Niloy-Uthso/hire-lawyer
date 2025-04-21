@@ -4,6 +4,8 @@ import MainLayout from "../layout/MainLayout";
 import Middle from "../Pages/Middle";
 import Details from "../Pages/Details";
 import Booked from "../Pages/Booked";
+import { Component } from "react";
+import Blogs from "../Pages/Blogs";
 
 
   const router = createBrowserRouter([
@@ -27,7 +29,11 @@ import Booked from "../Pages/Booked";
         {
             path:'/booked',
             Component:Booked
-        }
+        },
+       {
+        path:'/blogs',
+        Component:Blogs
+       }
     ]
   },
 ]);

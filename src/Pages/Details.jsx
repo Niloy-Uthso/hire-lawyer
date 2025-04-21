@@ -16,43 +16,43 @@ const Details = () => {
     }
     return (
         <div>
-            <div className='flex flex-col items-center justify-around mt-6'>
-                <h1>Lawyer’s Profile Details</h1>
-                <p>
+            <div className='flex rounded-xl flex-col items-center justify-around mt-6 shadow-[0_0_0_1px_rgba(15,15,15,0.15)] h-36'>
+                <h1 className='font-extrabold text-2xl text-black'>Lawyer’s Profile Details</h1>
+                <p className='font-medium text-sm'>
                 Lorem ipsum dolor sit amet consectetur. Sit enim blandit orci tortor amet ut. Suscipit sed est fermentum magna. Quis vitae tempus facilisis <br /> turpis imperdiet mattis donec dignissim volutpat.
                 </p>
                 </div>  
 
-                <div className='flex gap-2 items-center p-3 mt-5 border'>
+                <div className='flex rounded-xl gap-2 items-center pl-2 mt-5 h-52 shadow-[0_0_0_1px_rgba(15,15,15,0.15)]'>
  
-                     <img className='w-24 h-32' src={img} alt="" />
+                     <img className='w-32  h-40 rounded-2xl' src={img} alt="" />
                      <div className='flex flex-col gap-1'>
-                        <p>{experience}</p>
-                        <p>{name}</p>
-                        <div className='flex justify-between'><p>{expertise}</p>
-                        <p>{licenceNo}</p>
+                        <p className='font-medium text-xs text-blue-500 p-0.5 border rounded-full bg-blue-50 w-20'>{experience}</p>
+                        <p className='font-extrabold text-2xl text-black'>{name}</p>
+                        <div className='flex justify-between'><p className='font-medium text-sm'>{expertise}</p>
+                        <p className='font-medium text-sm'>{licenceNo}</p>
                         </div>
-                         <p>Availability:{availability}</p>
-                         <p>Consultation fee:{fee}</p>
+                         <p className='font-bold text-sm'>Availability:{availability}</p>
+                         <p className='font-bold text-sm'>Consultation fee:{fee}</p>
                      </div>
                     
                 </div>
 
-                <div className='flex flex-col gap-2 items-center mt-3 border'>
+                <div className='flex rounded-xl flex-col  gap-4 items-center mt-3 h-52 shadow-[0_0_0_1px_rgba(15,15,15,0.15)]'>
  
-       <h1>Book an Appointment</h1>
-       <div className='flex justify-between '>
-          <p>
+       <h1 className='font-bold text-base'>Book an Appointment</h1>
+       <div className='flex justify-between w-full  pl-1 pr-1'>
+          <p className='font-bold text-sm '> 
           Availability
             </p>
-          <p>
-          Availability
+          <p className='font-medium text-xs text-green-500 p-0.5 border rounded-full bg-green-50'>
+          Lawer available today
           </p>
           </div>
-          <p>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
+          <p className='font-medium text-sm text-amber-500 bg-amber-100 rounded-xl p-1'>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
              
               {/* <Link to={`/booked`} state={{lawyer}}> */}
-              <button onClick={handleBooked} className='border'>Book Appoinment Now</button>
+              <button onClick={handleBooked} className='border w-[80%] rounded-xl text-white font-bold bg-green-500'>Book Appoinment Now</button>
              
                 {/* </Link> */}
                 </div>

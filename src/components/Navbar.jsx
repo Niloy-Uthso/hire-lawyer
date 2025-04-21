@@ -31,13 +31,27 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
+      <li>
+      <NavLink
+                className={({ isActive }) =>
+                  isActive ? 'text-indigo-600' : ''
+                }
+                to='/'
+              >
+                Home
+              </NavLink>
+      </li>
       <li>
          
-      <NavLink to={'/booked'}>My-Bookings</NavLink>
+      <NavLink  className={({ isActive }) =>
+                  isActive ? 'text-indigo-600' : ''
+                }
+      to={'/booked'}>My-Bookings</NavLink>
       </li>
-      <li><a>Blogs</a></li>
-      <li><a>Contact Us</a></li>
+      <li><NavLink to={'/blogs'} className={({ isActive }) =>
+                  isActive ? 'text-indigo-600' : ''
+                } >Blogs</NavLink></li>
+      <li> <NavLink>Contact Us</NavLink></li>
     </ul>
   </div>
   <div className="navbar-end">

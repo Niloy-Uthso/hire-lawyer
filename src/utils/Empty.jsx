@@ -2,7 +2,7 @@ import React from 'react';
 
 const Empty = () => {
     return (
-        <div>
+        <div className='min-h-[80vh]'>
             <p>nothing</p>
         </div>
     );
