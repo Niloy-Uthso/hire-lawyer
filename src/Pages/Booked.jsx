@@ -1,36 +1,44 @@
-import React, { useEffect, useState } from 'react';
-import Details from './Details';
+import { useEffect, useState } from "react";
+import Card from "../components/Card";
+import { getBookings, removeBookings } from "../utils";
+import Empty from "../utils/Empty";
 
-const Booked = ({lawyer}) => {
+  
 
-    const [booKed,setBooked]=useState([])
+const Booked = () => {
+    
      
-    useEffect(() => {
-        let c=true
-        
-        if (c) {
-            console.log('klfj')
-          setBooked(prev => [...prev, lawyer]);
-          c=false
-        }
-      }, [lawyer]); 
+     const [displayCards, setdisplayCards]=useState([])
+
+     useEffect(()=>{
+    const savedLawer=getBookings()
+    setdisplayCards(savedLawer)
+     },[])
      
-    console.log(booKed)
-     
+     const handleDelete=id=>{
+        removeBookings(id)
+        setdisplayCards(getBookings())
+     }
+
+     if(displayCards.length<1)return <Empty></Empty>
     return (
-        <div>
-            <h1>My Today Appointments</h1>
-            <p>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
-       <div>
+        <div className='grid grid-cols-1 gap-3 '>
         {
-
-           <div>
-
-           </div>
-
+               displayCards.map(lawyer=>(
+             
+            //  <Card lawyer={lawyer}></Card>
+            <div className="border">
+                 <div className="flex justify-between items center">
+                   <div> <p>{lawyer.name}</p>
+                   <p>{lawyer.expertise}</p></div>
+                   <p>Appoinment fee:{lawyer.fee}</p>
+                 </div>
+                   
+                 <button onClick={()=>handleDelete(lawyer.id)}>Cancel appoinment</button>
+            </div>
+         ))
         }
-       </div>
-        </div>
+             </div>
     );
 };
 

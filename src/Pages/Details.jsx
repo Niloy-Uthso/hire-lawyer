@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router';
 import Booked from './Booked';
+import { addBook } from '../utils';
 // import { useLoaderData } from 'react-router';
 
 const Details = () => {
@@ -10,6 +11,9 @@ const Details = () => {
     // const details=useLoaderData()
     const {name,experience,expertise,licenceNo,img,fee,availability}=lawyer||{}
     // console.log(lawyer)
+    const handleBooked=()=>{
+        addBook(lawyer)
+    }
     return (
         <div>
             <div className='flex flex-col items-center justify-around mt-6'>
@@ -47,10 +51,10 @@ const Details = () => {
           </div>
           <p>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
              
-              <Link to={`/booked`} state={{lawyer}}>
-              <button className='border'>Book Appoinment Now</button>
+              {/* <Link to={`/booked`} state={{lawyer}}> */}
+              <button onClick={handleBooked} className='border'>Book Appoinment Now</button>
              
-                </Link>
+                {/* </Link> */}
                 </div>
         </div>
     );
