@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -30,12 +31,13 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
+      <li><a>Home</a></li>
       <li>
          
-      <a>Item 1</a>
+      <NavLink to={''}>My-Bookings</NavLink>
       </li>
-      <li><a>Item 3</a></li>
+      <li><a>Blogs</a></li>
+      <li><a>Contact Us</a></li>
     </ul>
   </div>
   <div className="navbar-end">

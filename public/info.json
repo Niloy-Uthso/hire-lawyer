@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Anjali Mehra",
+      "experience": "10 years",
+      "expertise": "Cardiologist",
+      "licenceNo": "LIC12345",
+      "img": "https://i.ibb.co.com/203Vbs5T/confident-young-female-lawyer-office-sitting-desk-vertical-portrait-confident-young-female-lawyer-pr.webp",
+      "availability": "Mon-Fri, 9am-5pm",
+      "fee": 1200
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajiv Nair",
+      "experience": "8 years",
+      "expertise": "Neurologist",
+      "licenceNo": "LIC67890",
+      "img": " https://i.ibb.co.com/VWKtJtPx/1000-F-636882064-x-PKu-CM09-JMNXHtcwpxif-QIkngz-PFFup1.jpg",
+      "availability": "Tue-Sat, 10am-4pm",
+      "fee": 1500
+    },
+    {
+      "id": 3,
+      "name": "Dr. Sneha Patel",
+      "experience": "6 years",
+      "expertise": "Dermatologist",
+      "licenceNo": "LIC54321",
+      "img": "https://i.ibb.co.com/Xf0MywNf/smiling-young-african-executive-sitting-at-his-desk-in-an-office-smiling-K59050.jpg",
+      "availability": "Mon, Wed, Fri - 1pm to 6pm",
+      "fee": 1000
+    },
+    {
+      "id": 4,
+      "name": "Dr. Arjun Kapoor",
+      "experience": "12 years",
+      "expertise": "Orthopedic Surgeon",
+      "licenceNo": "LIC98765",
+      "img": "https://i.ibb.co.com/351Kv5T4/professional-successful-millennial-asian-female-lawyer-attorney-formal-suit-arms-crossed-sitting-her.webp",
+      "availability": "Mon-Fri, 8am-2pm",
+      "fee": 1800
+    },
+    {
+        "id": 5,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/WNcj3RdH/female-lawyer-signing-documents-beautiful-young-reviewing-lot-work-49731402.webp",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      },
+      {
+        "id": 6,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/ksgCMbn3/150918edufreddiegraylawschool-stock.jpg",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      },
+      {
+        "id": 7,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/0VFXsbmg/lawyer-office-law-book-dossier-young-female-working-her-typical-file-31285661.webp",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      },
+      {
+        "id": 8,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/LdTFP3hf/360-F-295967926-T2n-Unmh-Qc00dwwp3-Ksv-JSPHMP2xhekry.jpg",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      },
+      {
+        "id": 9,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/ZpPG5V1X/black-female-lawyer-courthouse-151845466.webp",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      },
+      {
+        "id": 10,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/6drDgKF/istockphoto-538235445-612x612.jpg",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      },
+      {
+        "id": 11,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/qFLMwHX5/young-female-black-lawyer-working-in-her-office-and-reading-a-typical-D94-AE6.jpg",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      },
+      {
+        "id": 12,
+        "name": "Dr. Arjun Kapoor",
+        "experience": "12 years",
+        "expertise": "Orthopedic Surgeon",
+        "licenceNo": "LIC98765",
+        "img": "https://i.ibb.co.com/B5t8RvnQ/portrait-beautiful-female-lawyer-sitting-desk-smiling-camera-44344-4770.jpg",
+        "availability": "Mon-Fri, 8am-2pm",
+        "fee": 1800
+      }
+
+  ]
+  

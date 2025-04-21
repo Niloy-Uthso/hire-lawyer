@@ -1,6 +1,9 @@
 import { createBrowserRouter } from "react-router";
  
 import MainLayout from "../layout/MainLayout";
+import Middle from "../Pages/Middle";
+import Details from "../Pages/Details";
+import Booked from "../Pages/Booked";
 
 
   const router = createBrowserRouter([
@@ -11,13 +14,19 @@ import MainLayout from "../layout/MainLayout";
     children:[
         {
             path: "/",
-            element:<p>present</p>
+            Component:Middle,
+            loader:()=> fetch('info.json')
         },
 
 
         {
             path:'/favorite',
-            element:<div>djfnkjf</div>
+             Component:Details,
+            // loader:()=> fetch('../info.json')
+        },
+        {
+            path:'/booked',
+            Component:Booked
         }
     ]
   },
