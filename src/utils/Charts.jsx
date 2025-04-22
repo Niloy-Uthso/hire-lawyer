@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, BarChart, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 
 const Charts = ({displayCards}) => {
 
@@ -18,13 +18,16 @@ const Charts = ({displayCards}) => {
       };
     console.log(displayCards)
     return (
-        <div>
-            <BarChart width={600} height={400} data={displayCards}>
+        <div className='w-full h-[50vh]'>
+            <ResponsiveContainer width="100%" height="100%">
+            <BarChart  width={600} height={400} data={displayCards}>
                 <XAxis dataKey={"name"}></XAxis>
                 <YAxis dataKey={"fee"}/>
                 <Bar dataKey="fee" fill="#8884d8"
      shape={<TriangleBar />} /> 
             </BarChart>
+            </ResponsiveContainer>
+           
         </div>
     );
 };

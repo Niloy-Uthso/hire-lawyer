@@ -32,14 +32,14 @@ const Booked = () => {
               <AwesomeComponent></AwesomeComponent>
         <Charts displayCards={displayCards}></Charts>
          
-        <h1 className="font-extrabold text-3xl">My Today Appointments</h1>
-        <p className="font-normal text-sm">Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
+        <h1 className="font-extrabold text-xl mr-6 md:mr-0 md:text-3xl">My Today Appointments</h1>
+        <p className="font-normal  text-sm">Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
         <div className='grid grid-cols-1 gap-3 w-full '>
         {
                displayCards.map(lawyer=>(
              
             //  <Card lawyer={lawyer}></Card>
-            <div className="rounded-xl h-32 flex flex-col justify-around shadow-[0_0_0_1px_rgba(15,15,15,0.15)]  p-1   ">
+            <div className="rounded-xl h-32 flex flex-col justify-around shadow-[0_0_0_1px_rgba(15,15,15,0.15)]  md:p-1 p-2   ">
                  <div className="flex justify-between items-center">
                    <div> 
                     <p className="font-bold text-base">{lawyer.name}</p>

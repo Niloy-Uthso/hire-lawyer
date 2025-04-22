@@ -12,15 +12,31 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+       <li>
+      <NavLink
+                className={({ isActive }) =>
+                  isActive ? 'text-indigo-600' : ''
+                }
+                to='/'
+              >
+                Home
+              </NavLink>
+      </li>
+      <li>
+         
+      <NavLink  className={({ isActive }) =>
+                  isActive ? 'text-indigo-600' : ''
+                }
+      to={'/booked'}>My-Bookings</NavLink>
+      </li>
+      <li><NavLink to={'/blogs'} className={({ isActive }) =>
+                  isActive ? 'text-indigo-600' : ''
+                } >Blogs</NavLink></li>
+      <li> <NavLink
+      to={'/error'} className={({ isActive }) =>
+        isActive ? 'text-indigo-600' : ''
+      }
+      >Contact Us</NavLink></li>
       </ul>
     </div>
     <div className='flex'>

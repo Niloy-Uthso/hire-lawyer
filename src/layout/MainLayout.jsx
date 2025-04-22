@@ -13,7 +13,7 @@ const MainLayout = () => {
     return (
         
         <>
-             <div className='ml-28 mr-28'>
+             <div className='md:ml-28 md:mr-28 ml-8 mr-8'>
               
 
                 <Navbar></Navbar>

@@ -26,11 +26,11 @@ const Container = ({info}) => {
         <div className='mt-14  flex flex-col justify-between  gap-4 mb-5'>
             
            <div className=' flex flex-col justify-between items-center'>
-           <h1 className='font-extrabold text-3xl text-black'>Our Best Lawyers</h1>
+           <h1 className='font-extrabold text-2xl md:text-3xl text-black'>Our Best Lawyers</h1>
             <p className='font-normal text-sm'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience. Whether it's a routine <br /> checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
        
            </div>
-       <div className='grid grid-cols-2 gap-3 mt-4'>
+       <div className='grid grid-cols-1 md:grid-cols-2 gap-3 mt-4'>
                
               {
                       displayCards.map(lawyer=>(

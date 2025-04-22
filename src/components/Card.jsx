@@ -11,7 +11,7 @@ const Card = ({lawyer}) => {
     return (
         <div className='flex justify-around items-center shadow-[0_0_0_1px_rgba(15,15,15,0.15)] rounded-sm'>
             <div>
-                <img className='w-24 h-28 rounded-xl' src={img} alt="" />
+                <img className='md:w-24 md:h-28 w-20 h-24 rounded-xl' src={img} alt="" />
             </div>
             <div className='p-2 flex flex-col gap-2 '>
                 <div className='flex gap-2'>
