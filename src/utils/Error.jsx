@@ -5,7 +5,7 @@ import AwesomeComponent from './Loader';
 
 const Error = () => {
     return (
-        <div className=''>
+        <div className='md:ml-28 md:mr-28 ml-8 mr-8'>
             <Navbar></Navbar>
             <AwesomeComponent></AwesomeComponent>
             <div className='flex mt-3 gap-4 flex-col items-center justify-between '>

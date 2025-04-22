@@ -1,123 +1,136 @@
 [
     {
       "id": 1,
-      "name": "Dr. Anjali Mehra",
-      "experience": "10 years",
-      "expertise": "Cardiologist",
+      "name": "Adv.Anjali Mehra",
+      "experience": "4+ years experience",
+      "expertise": "Criminal Defense Attorney",
       "licenceNo": "LIC12345",
-      "img": "https://i.ibb.co.com/203Vbs5T/confident-young-female-lawyer-office-sitting-desk-vertical-portrait-confident-young-female-lawyer-pr.webp",
-      "availability": "Mon-Fri, 9am-5pm",
-      "fee": 1200
+      "img": "https://i.ibb.co.com/gM3C6CT7/istockphoto-1326920136-612x612.jpg",
+      "availability": "Sat,Mon,Wed",
+      "fee": 1200,
+      "details":"Adv. Anjali Mehra is a highly respected criminal defense attorney with over 4 years of courtroom experience. Known for her strategic thinking and calm demeanor under pressure, she has successfully defended clients in a wide range of criminal cases, including white-collar crimes, cybercrime, and serious offenses."
     },
     {
       "id": 2,
-      "name": "Dr. Rajiv Nair",
-      "experience": "8 years",
-      "expertise": "Neurologist",
+      "name": "Rajiv Nair,Esq",
+      "experience": "3+ years experience",
+      "expertise": "Corporate Lawyer",
       "licenceNo": "LIC67890",
       "img": " https://i.ibb.co.com/VWKtJtPx/1000-F-636882064-x-PKu-CM09-JMNXHtcwpxif-QIkngz-PFFup1.jpg",
-      "availability": "Tue-Sat, 10am-4pm",
-      "fee": 1500
+      "availability": "Fri,Mon,Tue,Thurs",
+      "fee": 1500,
+      "details":"Rajiv Nair, Esq. is a seasoned corporate lawyer with over 3 years of experience in mergers, acquisitions, and international business law. He is known for his sharp negotiation skills and strategic legal counsel to Fortune 10 companies."
     },
     {
       "id": 3,
-      "name": "Dr. Sneha Patel",
-      "experience": "6 years",
-      "expertise": "Dermatologist",
+      "name": "Arjun Kapoor,LL.B",
+      "experience": "6+ years experience",
+      "expertise": "Family Law Specialist",
       "licenceNo": "LIC54321",
       "img": "https://i.ibb.co.com/Xf0MywNf/smiling-young-african-executive-sitting-at-his-desk-in-an-office-smiling-K59050.jpg",
-      "availability": "Mon, Wed, Fri - 1pm to 6pm",
-      "fee": 1000
+      "availability": "Mon,Wed,Fri",
+      "fee": 1000,
+      "details":"Arjun Kapoor, LL.B is a skilled family law lawyer based in Mumbai with over 6 years of courtroom experience. He specializes in defending complex family issue cases with a sharp, tech-savvy legal approach."
     },
     {
       "id": 4,
-      "name": "Dr. Arjun Kapoor",
-      "experience": "12 years",
-      "expertise": "Orthopedic Surgeon",
+      "name": "Sneha Patel,J.D.",
+      "experience": "2+ years experience",
+      "expertise": "Personal Injury Attorney",
       "licenceNo": "LIC98765",
       "img": "https://i.ibb.co.com/351Kv5T4/professional-successful-millennial-asian-female-lawyer-attorney-formal-suit-arms-crossed-sitting-her.webp",
-      "availability": "Mon-Fri, 8am-2pm",
-      "fee": 1800
+      "availability": "Sun,Mon,Tues,Fri",
+      "fee": 1800,
+      "details":"Sneha Patel, J.D. is a U.S.-educated Personal Injury attorney known for her compassionate advocacy. She has helped hundreds of clients navigate complex cases with integrity and expertise."
     },
     {
         "id": 5,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "Advocate Isabella Monroe",
+        "experience": "1+ years experience",
+        "expertise": "Real Estate Lawyer",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/WNcj3RdH/female-lawyer-signing-documents-beautiful-young-reviewing-lot-work-49731402.webp",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Sat,Sun,Mon,Tues,Wed,Thurs,Fri",
+        "fee": 1600,
+        "details":"Advocate Isabella Monroe is a seasoned real estate lawyer specializing in property transactions, lease agreements, and zoning laws. She is known for her meticulous contract review and client-first approach in both residential and commercial deals."
       },
       {
         "id": 6,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "Olivia Langston,Esq",
+        "experience": "5+ years experience",
+        "expertise": "Business & Contracts Attorney",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/ksgCMbn3/150918edufreddiegraylawschool-stock.jpg",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Sat,Sun,Mon",
+        "fee": 1300,
+        "details":"Olivia Langston, Esq. is a skilled business and contracts attorney with expertise in drafting, negotiating, and enforcing commercial agreements. She is renowned for her strategic approach to contract law and her ability to protect her clients' business interests across industries."
       },
       {
         "id": 7,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "Amelia Grant,LL.B",
+        "experience": "4+ years experience",
+        "expertise": "Divorce & Custody Specialist",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/0VFXsbmg/lawyer-office-law-book-dossier-young-female-working-her-typical-file-31285661.webp",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Mon,Wed,Fri",
+        "fee": 1800,
+        "details":"Amelia Grant, LL.B is a dedicated divorce and custody lawyer with a compassionate approach to family law. She specializes in helping clients navigate complex divorce proceedings and secure fair custody arrangements with a focus on protecting children's welfare."
       },
       {
         "id": 8,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "James Holloway,J.D.",
+        "experience": "7+ years experience",
+        "expertise": "Intellectual Property Lawyer",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/LdTFP3hf/360-F-295967926-T2n-Unmh-Qc00dwwp3-Ksv-JSPHMP2xhekry.jpg",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Thus,Fri",
+        "fee": 1900,
+        "details":"James Holloway, J.D. is a seasoned intellectual property lawyer specializing in patent, trademark, and copyright law. He is known for his strategic counsel to startups and established businesses in protecting their creative and innovative assets."
       },
       {
         "id": 9,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "Sophie Caldwell,Esq",
+        "experience": "8+ years experience",
+        "expertise": "Immigration Law Expert",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/ZpPG5V1X/black-female-lawyer-courthouse-151845466.webp",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Tues,Wed,Fri",
+        "fee": 2800,
+        "details":"Sophie Caldwell, Esq. is an experienced immigration law expert, specializing in visa applications, asylum cases, and citizenship matters. She is known for her meticulous attention to detail and commitment to helping clients navigate complex immigration processes with ease."
       },
       {
         "id": 10,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "Natalie Brooks,LL.M",
+        "experience": "9+ years experience",
+        "expertise": "Taxation and Compliance Attorney",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/6drDgKF/istockphoto-538235445-612x612.jpg",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Mon,Wed,Fri",
+        "fee": 2400,
+        "details":"Natalie Brooks, LL.M is a highly skilled taxation and compliance attorney, specializing in corporate tax law and regulatory compliance. She provides strategic advice to businesses on tax planning, audits, and navigating complex financial regulations."
       },
       {
         "id": 11,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "Clara Bennett,J.D.",
+        "experience": "1+ years experience",
+        "expertise": "Employment Law Specialist",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/qFLMwHX5/young-female-black-lawyer-working-in-her-office-and-reading-a-typical-D94-AE6.jpg",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Tues,Wed,Fri",
+        "fee": 1100,
+        "details":"Clara Bennett, J.D. is a dedicated employment law specialist, focusing on employee rights, workplace discrimination, and labor disputes. She is known for her strong advocacy in both individual and class action cases, ensuring fair treatment for employees."
       },
       {
         "id": 12,
-        "name": "Dr. Arjun Kapoor",
-        "experience": "12 years",
-        "expertise": "Orthopedic Surgeon",
+        "name": "Victoria Hayes,Esq",
+        "experience": "2+ years experience",
+        "expertise": "Civil Litigation Lawyer",
         "licenceNo": "LIC98765",
         "img": "https://i.ibb.co.com/B5t8RvnQ/portrait-beautiful-female-lawyer-sitting-desk-smiling-camera-44344-4770.jpg",
-        "availability": "Mon-Fri, 8am-2pm",
-        "fee": 1800
+        "availability": "Sat,Sun,Mon,Tues,Wed,Thurs,Fri",
+        "fee": 1700,
+        "details":"Victoria Hayes, Esq. is an experienced civil litigation lawyer specializing in personal injury, contract disputes, and property damage cases. She is known for her aggressive courtroom tactics and commitment to securing justice for her clients."
+
       }
 
   ]

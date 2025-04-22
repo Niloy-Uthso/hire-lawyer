@@ -7,6 +7,7 @@ import Booked from "../Pages/Booked";
 import { Component } from "react";
 import Blogs from "../Pages/Blogs";
 import Error from "../utils/Error";
+import Nolawer from "../Pages/Nolawer";
  
 
 
@@ -19,7 +20,7 @@ import Error from "../utils/Error";
         {
             path: "/",
             Component:Middle,
-            loader:()=> fetch('info.json')
+            loader:()=> fetch('../info.json')
         },
 
 
@@ -36,6 +37,10 @@ import Error from "../utils/Error";
         path:'/blogs',
         Component:Blogs,
         loader:()=> fetch('blogs.json')
+       },
+       {
+        path:'/favorite/:kj',
+        Component:Nolawer,
        }
     ]
   },

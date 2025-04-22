@@ -3,7 +3,7 @@ import Details from '../Pages/Details';
 import { Link } from 'react-router';
 
 const Card = ({lawyer}) => {
-    const {name,experience,expertise,licenceNo,img}=lawyer||{}
+    const {id,name,experience,expertise,licenceNo,img}=lawyer||{}
     
     
      

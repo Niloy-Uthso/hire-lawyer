@@ -37,15 +37,15 @@ const Footer = () => {
     </ul>
             </div>
             <div className='flex gap-2'>
-                <a className='bg-blue-700 rounded-full flex items-center w-6 h-6 justify-center' href="">
+                <a className='bg-blue-700 rounded-full flex items-center w-6 h-6 justify-center' href="https://www.facebook.com/nilnineteenforty.oynineteenfortysix/?locale=fr_FR" target="_blank"> 
                 <FaFacebook />
 
                 </a>
-                <a className='bg-blue-700 rounded-full flex items-center h-6 w-6 justify-center' href=""><FaSquareXTwitter />
+                <a className='bg-blue-700 rounded-full flex items-center h-6 w-6 justify-center' href="https://x.com/" target="_blank"><FaSquareXTwitter />
                 </a>
-                <a className='bg-blue-700 rounded-full flex items-center h-6 w-6 justify-center' href=""><FaLinkedin />
+                <a className='bg-blue-700 rounded-full flex items-center h-6 w-6 justify-center' href="https://www.linkedin.com/in/niloy-uthso-4b2a8a361/"  target="_blank"><FaLinkedin />
                 </a>
-                <a className='bg-blue-700 rounded-full flex items-center w-6 h-6 justify-center' href=""><IoLogoYoutube /></a>
+                <a className='bg-blue-700 rounded-full flex items-center w-6 h-6 justify-center' href="https://www.youtube.com/" target="_blank"><IoLogoYoutube /></a>
             </div>
         </div>
     );

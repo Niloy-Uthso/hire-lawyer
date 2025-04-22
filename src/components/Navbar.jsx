@@ -41,7 +41,7 @@ const Navbar = () => {
     </div>
     <div className='flex'>
         <img className='h-9 w-7' src="/logo.png" alt="" />
-    <a className=" text-xl">Law.BD</a>
+    <a className="font-bold text-xl">Law.BD</a>
     </div>
    
   </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn  rounded-2xl p-1 w-32 font-bold text-sm text-white  bg-green-500">Button</a>
   </div>
 </div>
     );
