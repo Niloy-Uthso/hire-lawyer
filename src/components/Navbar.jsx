@@ -51,7 +51,11 @@ const Navbar = () => {
       <li><NavLink to={'/blogs'} className={({ isActive }) =>
                   isActive ? 'text-indigo-600' : ''
                 } >Blogs</NavLink></li>
-      <li> <NavLink>Contact Us</NavLink></li>
+      <li> <NavLink
+      to={'/error'} className={({ isActive }) =>
+        isActive ? 'text-indigo-600' : ''
+      }
+      >Contact Us</NavLink></li>
     </ul>
   </div>
   <div className="navbar-end">

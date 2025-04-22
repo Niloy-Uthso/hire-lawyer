@@ -19,9 +19,7 @@ const isExist=bookings.find(l=>l.id===lawer.id)
 
  
 if(isExist)
-{
-    
-    
+{     
     toast.error('You have already booked this appointment!')
 
     return 
@@ -32,7 +30,7 @@ bookings.push(lawer)
 localStorage.setItem('booked',JSON.stringify(bookings))
 
 
-toast.success('Appointment booked successfully!')
+toast.success(`Appointment of ${lawer.name} booked successfully!`)
 }
 
 export const removeBookings=id=>{

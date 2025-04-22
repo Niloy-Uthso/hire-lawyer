@@ -1,0 +1,23 @@
+[
+    {
+      "question": "What is useState and how does it work in React?",
+      "answer": "useState is a React Hook that allows you to add state variables to functional components. It returns an array with two elements: the current state value and a function to update that state. You call the updater function to modify the state, and React will re-render the component whenever the state changes."
+    },
+    {
+      "question": "What is the purpose of useEffect in React?",
+      "answer": "useEffect is a React Hook that allows you to perform side effects in functional components. It can be used for tasks like data fetching, setting up subscriptions, and manually modifying the DOM. It runs after every render by default but can be controlled with dependencies to run only when specific values change."
+    },
+    {
+      "question": "What is a custom hook in React and when should you use one?",
+      "answer": "A custom hook is a JavaScript function that allows you to reuse stateful logic across multiple components in React. You should create a custom hook when you have a set of logic that is shared across different components, so you can keep your code DRY (Don't Repeat Yourself) and clean."
+    },
+    {
+      "question": "Difference between controlled and uncontrolled components. Which one is better?",
+      "answer": "A controlled component in React is a form element where the value is controlled by React's state, and any changes to the input are managed by React. An uncontrolled component, on the other hand, stores its value internally and doesn't require React to manage it. Controlled components are generally preferred because they give React complete control over the form's state, allowing for better synchronization and validation."
+    },
+    {
+      "question": "Tell us something about useFormStatus() in React.",
+      "answer": "useFormStatus is a hook introduced in React 18. It provides a way to check the status of a form submission (such as whether it's submitting or completed). It can be helpful in building form handling with better feedback mechanisms, allowing components to react to changes in form status like whether it's in a 'submitting' state or 'idle'."
+    }
+  ]
+  

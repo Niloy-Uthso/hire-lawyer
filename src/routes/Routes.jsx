@@ -6,13 +6,15 @@ import Details from "../Pages/Details";
 import Booked from "../Pages/Booked";
 import { Component } from "react";
 import Blogs from "../Pages/Blogs";
+import Error from "../utils/Error";
+ 
 
 
   const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
-    errorElement:<p>error</p>,
+    errorElement:<Error></Error>,
     children:[
         {
             path: "/",
@@ -32,7 +34,8 @@ import Blogs from "../Pages/Blogs";
         },
        {
         path:'/blogs',
-        Component:Blogs
+        Component:Blogs,
+        loader:()=> fetch('blogs.json')
        }
     ]
   },
