@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router';
+import { Link, useLocation, useNavigate } from 'react-router';
 import Booked from './Booked';
 import { addBook } from '../utils';
 // import { useLoaderData } from 'react-router';
@@ -8,11 +8,14 @@ const Details = () => {
 
     const location = useLocation();
   const { lawyer } = location.state || {};
+ const navigate = useNavigate();
     // const details=useLoaderData()
     const {name,experience,expertise,licenceNo,img,fee,availability}=lawyer||{}
     // console.log(lawyer)
     const handleBooked=()=>{
         addBook(lawyer)
+        navigate('/booked');
+        
     }
     return (
         <div>
