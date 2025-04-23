@@ -22,7 +22,7 @@ const Card = ({lawyer}) => {
                 <p className='font-medium text-sm'>{expertise}</p>
                 <p className='font-medium text-sm'>{licenceNo}</p>
                 <Link to={`/favorite`} state={{lawyer}}>
-                <button className='font-bold text-[12px] border rounded-full w-full  text-blue-500 p-1'>View-Details</button>
+                <button className='font-bold text-[12px] border hover:bg-blue-300 rounded-full w-full  text-blue-500 p-1'>View-Details</button>
                 </Link>
                
             </div>

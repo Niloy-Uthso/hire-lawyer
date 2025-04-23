@@ -10,7 +10,7 @@ const Empty = () => {
                 <h1 className='font-extrabold text-5xl '>No Appointments Yet </h1>
 
                 <Link to={`/`} >
-                <button className='bg-yellow-300 rounded-xl p-1 text-blue-900'>Return Home</button>
+                <button className='bg-yellow-300 hover:bg-yellow-500 rounded-xl p-1 text-blue-900'>Return Home</button>
                 </Link>
                
              </div>

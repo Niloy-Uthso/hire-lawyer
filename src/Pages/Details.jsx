@@ -56,7 +56,7 @@ const Details = () => {
           <p className='font-medium text-[9px] md:text-sm text-amber-500 bg-amber-100 rounded-xl m-1 md:m-0 p-1'>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
              
               {/* <Link to={`/booked`} state={{lawyer}}> */}
-              <button onClick={handleBooked} className='border w-[80%] rounded-xl text-white font-bold text-sm md:text-base bg-green-500'>Book Appoinment Now</button>
+              <button onClick={handleBooked} className='border w-[80%] rounded-xl text-white font-bold hover:bg-green-700 text-sm md:text-base bg-green-500'>Book Appoinment Now</button>
              
                 {/* </Link> */}
                 </div>

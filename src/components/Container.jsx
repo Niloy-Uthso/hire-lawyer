@@ -40,7 +40,7 @@ const Container = ({info}) => {
                }
                
        </div>
-       <button className='mx-auto border rounded-2xl p-1 w-32 font-bold text-sm text-white  bg-green-500' onClick={()=>setshowAll(prev=>!prev)}>{showAll?'Show less':'Show all'}</button>
+       <button className='mx-auto border hover:bg-green-700 rounded-2xl p-1 w-32 font-bold text-sm text-white  bg-green-500' onClick={()=>setshowAll(prev=>!prev)}>{showAll?'Show less':'Show all'}</button>
        
         </div>
     );

@@ -75,7 +75,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn  rounded-2xl p-1 w-20 md:w-32 font-bold text-sm text-white  bg-green-500">Button</a>
+    <a className="btn  rounded-2xl p-1 w-20 md:w-32 font-bold text-sm text-white  bg-green-500">Contact Now</a>
   </div>
 </div>
     );
