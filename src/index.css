@@ -1,2 +1,20 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.mulish-te {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+
+  .common-font{
+  
+    color: rgba(20, 20, 20, 0.6);
+  }
+  
+  .my-element {
+    border-bottom: 1px dotted black;
+  }
+  
+  

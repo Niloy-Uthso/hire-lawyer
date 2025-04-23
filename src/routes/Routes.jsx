@@ -27,7 +27,7 @@ import Nolawer from "../Pages/Nolawer";
         {
             path:'/favorite',
              Component:Details,
-            // loader:()=> fetch('../info.json')
+            
         },
         {
             path:'/booked',

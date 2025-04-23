@@ -20,7 +20,7 @@ const Details = () => {
     }
     return (
         <div>
-            <div className='flex rounded-xl flex-col items-center justify-around mt-6 shadow-[0_0_0_1px_rgba(15,15,15,0.15)] h-36'>
+            <div className='flex rounded-xl flex-col items-center bg-[rgba(15,15,15,0.15)] justify-around mt-6 shadow-[0_0_0_1px_rgba(15,15,15,0.15)] h-36'>
                 <h1 className='font-extrabold text-xl md:text-2xl text-black'>Lawyer’s Profile Details</h1>
                 <p className='font-medium text-[10px] p-1  md:text-sm'>
                {details}
@@ -33,8 +33,8 @@ const Details = () => {
                      <div className='flex flex-col gap-1'>
                         <p className='font-medium text-xs  text-blue-500 p-0.5 pl-4  border rounded-full bg-blue-50 w-24'>{experience}</p>
                         <p className='font-extrabold text-xl md:text-2xl text-black'>{name}</p>
-                        <div className='flex justify-around md:justify-between'><p className='font-medium text-sm'>{expertise}</p>
-                        <p className='font-medium text-sm'>{licenceNo}</p>
+                        <div className='flex justify-around md:justify-between'><p className='font-medium common-font text-sm'>{expertise}</p>
+                        <p className='font-medium common-font text-sm'>License no:{licenceNo}</p>
                         </div>
                          <p className='font-bold text-sm'>Availability: <span className='text-yellow-200'>{availability}</span> </p>
                          <p className='font-bold text-sm'>Consultation fee: <span className='text-green-600'>Taka {fee}</span></p>

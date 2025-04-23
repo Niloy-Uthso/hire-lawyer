@@ -18,7 +18,7 @@ class AwesomeComponent extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false });
-    }, 300); // hides loader after 3 seconds
+    }, 300);  
   }
   
 
