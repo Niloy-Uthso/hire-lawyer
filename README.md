@@ -1,8 +1,8 @@
-# 🧑‍⚖️ Lawyer Appointment Booking Application
+# 🧑‍⚖️ Lawyer Appointment Booking Application:"LegisMeet"
 
 [Live Site 🌐](https://resplendent-liger-5baaa9.netlify.app/)
 
-A fully responsive Lawyer Appointment Booking Web Application built with **React.js**. Users can browse lawyer profiles, view their details, book appointments, and visualize appointment data. This application showcases routing, state management, local storage persistence, dynamic pages, charts, and animations.
+LegisMeet is a fully responsive Lawyer Appointment Booking Web Application built with **React.js**. Users can browse lawyer profiles, view their details, book appointments, and visualize appointment data. This application showcases routing, state management, local storage persistence, dynamic pages, charts, and animations.
 
 ---
 
